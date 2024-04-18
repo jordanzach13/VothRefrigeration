@@ -5,7 +5,7 @@ export default function Header(){
     <nav className="bg-secondary text-primary p-4 fixed w-full z-50">
       <div className="flex items-center justify-between mx-4">
         <div className="flex items-center space-x-4">
-          <img className="h-12 w-12" src="/logoipsum-300.svg"/>
+          <img className="h-12 w-12" src="/images/logoipsum-245.svg"/>
           <h1 className="text-2xl font-semibold">Voth Refrigeration & Services</h1>
         </div>
         <div className="flex items-baseline space-x-2 text-1xl">
