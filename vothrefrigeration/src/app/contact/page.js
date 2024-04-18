@@ -19,7 +19,7 @@ export default function Contact() {
           <div className="flex flex-col space-y-2">
             <h2 className="text-xl font-semibold">Address</h2>
             <p>P.O. Box 205</p>
-            <p>Wellsive, UT, 84319</p>
+            <p>Wellsville, UT, 84319</p>
           </div>
           
           <div className="flex flex-col space-y-2">
