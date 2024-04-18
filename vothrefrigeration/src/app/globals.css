@@ -3,31 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --foreground: #FFFFFFFE;
+  --primary-color: #E7ECF0;
+  --background-start: #E8EBF0;
+  --background-end: #E9EBEC;
+  --secondary-color: #274C77;
+  --accent-color: #A3CEF1;
+  --accent2-color: #6096BA;
+  --text-primary: #FFFFFFFE;
+  --text-secondary: #274C77;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--foreground);
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      var(--background-end)
     )
-    rgb(var(--background-start-rgb));
+    var(--background-start);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Additional Utility Classes */
+@layer utilities {
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+
+  .bg-secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .bg-accent {
+    background-color: var(--accent-color);
+  }
+
+  .bg-accent2 {
+    background-color: var(--accent2-color);
+  }
+
+  .text-primary {
+    color: var(--text-primary);
+  }
+
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+
+  .border-gradient {
+    border-top: 1px solid transparent;
+    background: linear-gradient(to right, transparent, var(--accent2-color), transparent);
+  }
+  
 }
