@@ -32,6 +32,29 @@ body {
 
 /* Additional Utility Classes */
 @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-hero {
+    background-image: linear-gradient(to right, var(--accent-color), var(--accent2-color));
+  }
+
+  .hero-text {
+    color: var(--text-secondary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .hero-button {
+    background-color: var(--secondary-color);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease;
+  }
+
+  .hero-button:hover {
+    background-color: var(--accent-color);
+  }
+
   .bg-primary {
     background-color: var(--primary-color);
   }
