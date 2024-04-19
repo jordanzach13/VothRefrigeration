@@ -18,8 +18,8 @@ export default function Home() {
             </button>
           </div>
           <div className="z-0 flex items-center justify-center absolute pb-48">
-            <div className="triangle-black"></div>
-            <div className="triangle"></div>
+            <div className="md:triangle-black"></div>
+            <div className="md:triangle"></div>
           </div>
         </div>
 
