@@ -36,13 +36,13 @@ body {
     text-wrap: balance;
   }
 
-  .triangle {
+  /* .triangle {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 25vw solid transparent; /* Adjusted for mobile */
-    border-right: 25vw solid transparent; /* Adjusted for mobile */
-    border-bottom: 50vh solid; /* Adjusted for mobile */
+    border-left: 25vw solid transparent; 
+    border-right: 25vw solid transparent; 
+    border-bottom: 50vh solid; 
     z-index: -1;
   }
   
@@ -51,12 +51,12 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 24vw solid transparent; /* Adjusted for mobile */
-    border-right: 24vw solid transparent; /* Adjusted for mobile */
-    border-bottom: 49.5vh solid #fff; /* Adjusted for mobile */
-    margin-bottom: 1vh; /* Adjusted for mobile */
+    border-left: 24vw solid transparent; 
+    border-right: 24vw solid transparent; 
+    border-bottom: 49.5vh solid #fff; 
+    margin-bottom: 1vh; 
     border-bottom-color: #000;
-  }
+  } */
 
   .bg-hero {
     background-image: linear-gradient(to right, var(--background-start), var(--background-end));
