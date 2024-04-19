@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #FFFFFFFE;
-  --primary-color: #E7ECF0;
-  --background-start: #E8EBF0;
-  --background-end: #E9EBEC;
-  --secondary-color: #274C77;
-  --accent-color: #A3CEF1;
-  --accent2-color: #6096BA;
-  --text-primary: #FFFFFFFE;
-  --text-secondary: #274C77;
+  --foreground: #000000; /* White */
+  --primary-color: #000000; /* Black */
+  --secondary-color: #FFFFFF; /* Dark Gray */
+  --background-start: #000000; /* Light Gray */
+  --background-end: #000000; /* Darker Gray */
+  --accent-color: #1c1c1c; /* Blue Accent */
+  --accent2-color: #dfdfdf; /* Medium Gray */
+  --text-primary: #FFFFFF; /* Black */
+  --text-secondary: #000000; /* Dark Gray */
 }
 
 body {
@@ -36,23 +36,39 @@ body {
     text-wrap: balance;
   }
 
+  .triangle {
+    position: absolute;
+    width: 0;
+    border-left: 33vw transparent solid;
+    border-right: 33vw transparent solid;
+    border-bottom: 80vh solid;
+    z-index: -1;
+  }
+  
+  .triangle-black {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 32vw solid transparent;
+    border-right: 32vw solid transparent;
+    border-bottom: 79.5vh solid #fff;
+    margin-bottom: 1vh;
+    border-bottom-color: #000;
+  }
+
   .bg-hero {
-    background-image: linear-gradient(to right, var(--accent-color), var(--accent2-color));
+    background-image: linear-gradient(to right, var(--background-start), var(--background-end));
   }
 
   .hero-text {
-    color: var(--text-secondary);
+    color: var(--text-primary);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .hero-button {
-    background-color: var(--secondary-color);
     color: var(--text-primary);
     transition: background-color 0.3s ease;
-  }
-
-  .hero-button:hover {
-    background-color: var(--accent-color);
   }
 
   .bg-primary {
@@ -79,9 +95,16 @@ body {
     color: var(--text-secondary);
   }
 
+  .nav-border {
+    border-bottom: 1px solid var(--accent-color);
+  }
+
+  .border {
+    border: 1px solid var(--accent-color);
+  }
+
   .border-gradient {
     border-top: 1px solid transparent;
     background: linear-gradient(to right, transparent, var(--accent2-color), transparent);
   }
-  
 }
