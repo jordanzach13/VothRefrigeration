@@ -8,12 +8,12 @@ export default function Header() {
           <img className="h-12 w-12" src="/images/logoipsum-245.svg" alt="Logo" />
           <h1 className="text-xl font-semibold md:text-2xl">Voth Refrigeration & Services</h1>
         </div>
-        <div className="flex flex-col md:flex-row items-center space-x-2 md:space-x-4 mt-4 md:mt-0 ">
+        <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 mt-4 md:mt-0">
           <Link href="/">
-            <span className="cursor-pointer hover:bg-accent rounded-md px-3 py-2 text-sm border">Home</span>
+            <span className="cursor-pointer block md:inline-block hover:bg-accent rounded-md px-3 py-2 text-sm border mb-2 md:mb-0">Home</span>
           </Link>
           <Link href="/contact">
-            <span className="bg-secondary text-secondary cursor-pointer hover:bg-accent2 rounded-md px-3 py-2 text-sm border">Contact</span>
+            <span className="bg-secondary text-secondary cursor-pointer block md:inline-block hover:bg-accent2 rounded-md px-3 py-2 text-sm border">Contact</span>
           </Link>
         </div>
       </div>

@@ -39,9 +39,10 @@ body {
   .triangle {
     position: absolute;
     width: 0;
-    border-left: 33vw transparent solid;
-    border-right: 33vw transparent solid;
-    border-bottom: 80vh solid;
+    height: 0;
+    border-left: 25vw solid transparent; /* Adjusted for mobile */
+    border-right: 25vw solid transparent; /* Adjusted for mobile */
+    border-bottom: 50vh solid; /* Adjusted for mobile */
     z-index: -1;
   }
   
@@ -50,10 +51,10 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 32vw solid transparent;
-    border-right: 32vw solid transparent;
-    border-bottom: 79.5vh solid #fff;
-    margin-bottom: 1vh;
+    border-left: 24vw solid transparent; /* Adjusted for mobile */
+    border-right: 24vw solid transparent; /* Adjusted for mobile */
+    border-bottom: 49.5vh solid #fff; /* Adjusted for mobile */
+    margin-bottom: 1vh; /* Adjusted for mobile */
     border-bottom-color: #000;
   }
 
