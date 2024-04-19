@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-8">
-      <div className="bg-white p-8 rounded-md shadow-md w-full max-w-md mt-48 md:mt-0"> 
+      <div className="bg-white p-8 rounded-md shadow-md w-full max-w-md mt-32 md:mt-0"> 
         <h1 className="text-3xl font-bold mb-4 text-secondary text-center">Contact Us</h1>
         
         <div className="space-y-4 text-secondary">
