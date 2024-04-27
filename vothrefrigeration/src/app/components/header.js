@@ -5,7 +5,9 @@ export default function Header() {
     <nav className="text-primary p-2 fixed w-full z-50 bg-primary md:bg-transparent md:backdrop-filter md:backdrop-blur-sm nav-border">
       <div className="flex flex-col md:flex-row items-center justify-between mx-4 backdrop-filter">
         <div className="flex items-center space-x-4">
-          <img className="h-12 w-12" src="/images/logoipsum-245.svg" alt="Logo" />
+        <div className="h-12 w-12 flex-shrink-0 rounded-lg overflow-hidden">
+            <img className="h-full w-full object-cover" src="/images/voth_logo.svg" alt="Logo" />
+          </div>
           <h1 className="text-xl font-semibold md:text-2xl">Voth Refrigeration & Services</h1>
         </div>
         

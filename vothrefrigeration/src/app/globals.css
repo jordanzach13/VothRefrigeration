@@ -7,8 +7,8 @@
   --primary-color: #000000; /* Black */
   --secondary-color: #FFFFFF; /* Dark Gray */
   --background-start: #000000; /* Light Gray */
-  --background-end: #000000; /* Darker Gray */
-  --accent-color: #1c1c1c; /* Blue Accent */
+  --background-end: #292929; /* Darker Gray */
+  --accent-color: #292929; /* Logo Grey Accent */
   --accent2-color: #dfdfdf; /* Medium Gray */
   --text-primary: #FFFFFF; /* Black */
   --text-secondary: #000000; /* Dark Gray */
@@ -36,27 +36,6 @@ body {
     text-wrap: balance;
   }
 
-  .triangle {
-    position: absolute;
-    width: 0;
-    border-left: 33vw transparent solid;
-    border-right: 33vw transparent solid;
-    border-bottom: 80vh solid;
-    z-index: -1;
-  }
-  
-  .triangle-black {
-    z-index: 1;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 32vw solid transparent;
-    border-right: 32vw solid transparent;
-    border-bottom: 79.5vh solid #fff;
-    margin-bottom: 1vh;
-    border-bottom-color: #000;
-  }
-
   .bg-hero {
     background-image: linear-gradient(to right, var(--background-start), var(--background-end));
   }
@@ -70,6 +49,7 @@ body {
     color: var(--text-primary);
     transition: background-color 0.3s ease;
   }
+
 
   .bg-primary {
     background-color: var(--primary-color);

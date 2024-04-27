@@ -1,3 +1,4 @@
+import Hero from "./components/hero";
 import Services from "./components/service";
 import Link from "next/link";
 
@@ -7,21 +8,7 @@ export default function Home() {
       <div className="flex flex-grow flex-col w-full mt-24 space-y-8 pb-16">
 
         {/* Hero Section */}
-        <div className="relative flex flex-col items-center justify-center text-center h-screen mb-16 bg-hero rounded-md shadow-lg hero-text">
-          <div className="relative z-10">
-            <h1 className="text-5xl font-extrabold mb-4">Welcome to Voth Refrigeration</h1>
-            <p className="text-xl leading-relaxed mb-6">
-              Specializing in commercial and residential refrigeration needs.
-            </p>
-            <button className="border hover:bg-accent hero-button py-3 px-8 rounded-md shadow-md">
-              <Link href="/contact">Contact Us</Link>
-            </button>
-          </div>
-          <div className="z-0 flex items-center justify-center absolute pb-48">
-            <div className="md:triangle-black"></div>
-            <div className="md:triangle"></div>
-          </div>
-        </div>
+        <Hero/>
 
         {/* Mission Statement */}
         <div className="flex-grow flex justify-center items-center px-8">
