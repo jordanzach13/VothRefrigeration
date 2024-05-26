@@ -1,6 +1,5 @@
 import Hero from "./components/hero";
 import Services from "./components/service";
-import Link from "next/link";
 
 export default function Home() {
   return (
