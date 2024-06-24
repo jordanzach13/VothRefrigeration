@@ -50,7 +50,6 @@ body {
     transition: background-color 0.3s ease;
   }
 
-
   .bg-primary {
     background-color: var(--primary-color);
   }
@@ -86,5 +85,16 @@ body {
   .border-gradient {
     border-top: 1px solid transparent;
     background: linear-gradient(to right, transparent, var(--accent2-color), transparent);
+  }
+
+  .hero-section {
+    height: 50vh; /* Adjust the height as needed */
+    padding: 2rem; /* Adjust the padding as needed */
+  }
+
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
   }
 }
