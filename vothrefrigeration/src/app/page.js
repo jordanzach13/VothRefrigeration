@@ -4,7 +4,7 @@ import Services from "./components/service";
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen p-0">
-      <div className="flex flex-grow flex-col w-full mt-24 space-y-6 pb-16">
+      <div className="flex flex-grow flex-col w-full mt-32 space-y-6 pb-16">
 
         {/* Hero Section */}
         <Hero/>
