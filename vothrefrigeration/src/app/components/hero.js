@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="relative flex flex-col items-center justify-center text-center hero-section mb-16 overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center text-center hero-section mb-6 overflow-hidden">
       <div
         className="absolute inset-0 bg-center bg-no-repeat z-0 hero-image"
         style={{ backgroundImage: "url('images/logo.png')", backgroundSize: 'contain' }}
