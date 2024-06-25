@@ -23,19 +23,19 @@ export default function Service() {
   ];
 
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col items-center gap-16">
       {services.map((service, index) => (
         <div
           key={index}
-          className="service-container relative"
+          className="service-container relative flex items-center justify-center w-full md:w-3/4 lg:w-2/3 p-4"
           style={{
             borderRadius: '10px',
             overflow: 'hidden',
-            minHeight: '200px', // Ensure a minimum height
+            minHeight: '200px',
             background: `url(${service.backgroundImage}) center center / cover no-repeat`
           }}
         >
-          <div className="relative z-10 p-4 bg-opacity-50 bg-black text-white">
+          <div className="relative z-10 p-4 bg-opacity-50 bg-black text-white w-full">
             <h3 className="text-xl font-semibold mb-2">{service.service}</h3>
             <p className="text-lg">{service.description}</p>
           </div>
