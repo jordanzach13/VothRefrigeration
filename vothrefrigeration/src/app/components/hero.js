@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="relative flex flex-col items-center justify-center text-center hero-section mb-6 overflow-hidden">
       <div
         className="absolute inset-0 bg-center bg-no-repeat z-0 hero-image"
-        style={{ backgroundImage: "url('images/logo.png')", backgroundSize: 'contain' }}
+        style={{ backgroundImage: "url('images/wholelogo.png')", backgroundSize: 'contain' }}
       ></div>
 
       <div className="relative z-10 p-4 bg-opacity-50 bg-black text-white">
