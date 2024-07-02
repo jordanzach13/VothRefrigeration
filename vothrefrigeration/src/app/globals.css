@@ -4,14 +4,16 @@
 
 :root {
   --foreground: #292929;
-  --primary-color: #000000; /* Black */
-  --secondary-color: #FFFFFF; /* Dark Gray */
-  --background-start: #000000; /* Light Gray */
-  --background-end: #292929; /* Darker Gray */
-  --accent-color: #292929; /* Logo Grey Accent */
-  --accent2-color: #dfdfdf; /* Medium Gray */
-  --text-primary: #FFFFFF; /* Black */
-  --text-secondary: #000000; /* Dark Gray */
+  --primary-color: #808080; 
+  --primary-color-rgba: rgba(128, 128, 128, .5);
+  --secondary-color: #FFFFFF; 
+  --background-start: #808080; 
+  --background-end: #292929;
+  --accent-color: #292929; 
+  --accent2-color: #dfdfdf; 
+  --text-primary: #FFFFFF; 
+  --text-secondary: #808080;
+  --hero-button: #b3b3b3; 
 }
 
 body {
@@ -47,11 +49,16 @@ body {
 
   .hero-button {
     color: var(--text-primary);
+    background-color: var(--hero-button);
     transition: background-color 0.3s ease;
   }
 
   .bg-primary {
     background-color: var(--primary-color);
+  }
+
+  .bg-primary-opacity {
+    background-color: var(--primary-color-rgba);
   }
 
   .bg-secondary {

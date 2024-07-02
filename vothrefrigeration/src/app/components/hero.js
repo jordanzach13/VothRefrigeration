@@ -8,7 +8,7 @@ export default function Hero() {
         style={{ backgroundImage: "url('images/wholelogo.png')", backgroundSize: 'contain' }}
       ></div>
 
-      <div className="relative z-10 p-4 bg-opacity-50 bg-black text-white">
+      <div className="relative z-10 p-4 bg-primary-opacity text-white">
         <h1 className="text-5xl font-extrabold mb-4 hero-text">Welcome to Voth Refrigeration</h1>
         <p className="text-xl leading-relaxed mb-6">
           Specializing in commercial and residential refrigeration needs.
