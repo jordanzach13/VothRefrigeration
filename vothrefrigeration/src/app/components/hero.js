@@ -8,15 +8,15 @@ export default function Hero() {
         style={{ backgroundImage: "url('images/wholelogo.png')", backgroundSize: 'contain' }}
       ></div>
 
-      <div className="relative z-10 p-4 text-white">
+      <div className="relative z-10 p-4 text-accent">
       {/* <div className="relative z-10 p-4 bg-primary-opacity text-white"> */}
-        <h1 className="text-5xl font-extrabold mb-4 hero-text">Welcome to Voth Refrigeration</h1>
-        <p className="text-xl leading-relaxed mb-6">
+        <h1 className="text-6xl font-extrabold mb-4">Welcome to Voth Refrigeration</h1>
+        <p className="text-2xl leading-relaxed mb-6">
           Specializing in commercial and residential refrigeration needs.
         </p>
-        <button className="border hover:bg-accent text-white hero-button py-3 px-8 rounded-md shadow-md">
+        {/* <button className="border hover:bg-accent text-white hero-button py-3 px-8 rounded-md shadow-md">
           <Link href="/contact">Contact Us</Link>
-        </button>
+        </button> */}
       </div>
     </div>
   );

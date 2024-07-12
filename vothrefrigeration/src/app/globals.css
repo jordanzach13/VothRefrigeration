@@ -3,27 +3,33 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #292929;
+  /* --foreground: #292929; */
+  --foreground: #3b3b3b;
   --primary-color: #808080; 
   --primary-color-rgba: rgba(128, 128, 128, .5);
   --secondary-color: #FFFFFF; 
   --background-start: #808080; 
-  --background-end: #292929;
-  --accent-color: #292929; 
+  /* --background-end: #292929; */
+  --background-end: #3b3b3b;
+  /* --accent-color: #292929;  */
+  --accent-color: #3b3b3b;
   --accent2-color: #dfdfdf; 
   --text-primary: #FFFFFF; 
+  /* --text-accent: #292929; */
+  --text-accent: #3b3b3b;
   --text-secondary: #808080;
   --hero-button: #b3b3b3; 
 }
 
 body {
   color: var(--foreground);
-  background: linear-gradient(
+  background: var(--background-start);
+  /* background: linear-gradient(
       to bottom,
       transparent,
       var(--background-end)
     )
-    var(--background-start);
+    var(--background-start); */
 }
 
 @layer utilities {
@@ -77,6 +83,10 @@ body {
     color: var(--text-primary);
   }
 
+  .text-accent{
+    color: var(--text-accent);
+  }
+
   .text-secondary {
     color: var(--text-secondary);
   }
@@ -103,5 +113,9 @@ body {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
   }
 }
