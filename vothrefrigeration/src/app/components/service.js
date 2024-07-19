@@ -2,7 +2,7 @@ export default function Service() {
   const services = [
     {
       service: 'Refrigeration',
-      description: 'Specializing in commercial and residential providing preventative maintenance, troubleshooting, and repairs. Customizable maintenance programs available',
+      description: 'Specializing in commercial and residential preventative maintenance, troubleshooting, and repairs. Customizable maintenance programs available',
       backgroundImage: 'images/fridges.jpeg'
     },
     {

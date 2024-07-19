@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="h-36 w-36 flex-shrink-0 rounded-lg overflow-hidden">
             <img className="h-full w-full object-cover" src="/images/Voth__Refridgeration_LLC_logo.png" alt="Logo" />
           </div>
-          <h2 className="text-lg font-semibold">Voth Refrigeration & Services</h2>
+          <h2 className="text-lg font-semibold">© Voth Refrigeration & Services 2024</h2>
         </div>
         
         <div className="flex flex-row space-x-6 text-center">
