@@ -105,8 +105,8 @@ body {
   }
 
   .hero-section {
-    height: 50vh; /* Adjust the height as needed */
-    padding: 2rem; /* Adjust the padding as needed */
+    height: 50vh;
+    padding: 2rem;
   }
 
   .hero-image {
